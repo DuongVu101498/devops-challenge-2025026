@@ -12,6 +12,7 @@
  
 => depend on the trading application underline logic (which i am not familiar with), the architecture can involve both microservices and serverless
 # Architecture Component
+🚨**The following are key considerations for designing the trade system, rather than a fully defined architecture**
 ### 1. Hosting Frontend
 - Use cloudfront + s3 to host and cache frontend asset (html, css, js, static files,..)
 - Can also use cloudfron to cache backend response (eg, chache response from ALB)
