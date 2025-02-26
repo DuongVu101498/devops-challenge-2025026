@@ -27,7 +27,7 @@
 => both option support authentication/authorization (cognito user pool, lambda authorizer)
 #### 2.2 backend platform / engine
 - for microservice we can use services like EKS (more operation overhead, complex), ECS (easier to scale with Auto Scaling, fargate less complex).
-- for serverless we can use lambda
+- for serverless we can use lambda. We can also use SQS and/or SNS infront of lambda for decoupling, asynchronous processing.
 ### 3. Hosting Database
 #### 3.1 Databse services
 - for microservice Amazon Aurora for high availability and low-latency trading data storage.
