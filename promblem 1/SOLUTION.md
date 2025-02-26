@@ -14,4 +14,4 @@ Appends the HTTP response to output.txt.
 
 This will submit GET requests for all TSLA sell orders and save the results in output.txt
 
-Reference: Chat GPT
+**Reference: Chat GPT**
